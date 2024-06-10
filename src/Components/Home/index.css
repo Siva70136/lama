@@ -111,6 +111,12 @@
   font-size: 30px;
 }
 
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .select-container {
   display: flex;
   justify-content: space-around;
@@ -153,6 +159,20 @@
 .sname {
   width: 100px;
 }
-.del{
+
+.del {
   color: red;
+}
+.cap1{
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  margin-right: 200px;
+}
+.sub1{
+  background-color: rgba(126, 34, 206, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px 8px 20px;
+  border-radius: 10px;
 }

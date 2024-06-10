@@ -23,7 +23,7 @@ const Menu = () => {
                     </div>
                 </Link>
                 <Link to='/projects' onClick={() => onChange('projects')} className='option'>
-                    <div className={`${activeTab === 'home' ? 'active' : ''} option`}>
+                    <div className={`${activeTab === 'projects' ? 'active' : ''} option`}>
                         <LuPieChart className="icon" />
                         <p className='option-name'>Projects</p>
                     </div>
@@ -44,7 +44,7 @@ const Menu = () => {
                     <p className='option-name'>Pricing</p>
                 </div>
 
-                <hr className='last' />
+
             </div>
 
             <div className='bottom'>

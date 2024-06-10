@@ -15,7 +15,7 @@ function App() {
           <Route exact path='/' Component={CreateHome} />
           <Route exact path='/home' Component={Home} />
           <Route exact path='/projects' Component={CreateHome} />
-          <Route exact path='/edit' Component={Edit} />
+          <Route exact path='/edit/:id' Component={Edit} />
           <Route exact path='/widget' Component={Widget} />
           <Route exact path='/settings' Component={Settings} />
         </Routes>
