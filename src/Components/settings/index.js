@@ -18,11 +18,11 @@ const Settings = () => {
                     <img src={profile} className='profile' alt='profile' />
                     <div className='input-container2'>
                         <p className='label'>User Name</p>
-                        <input type='text' placeholder='User' className='input' />
+                        <input type='text' value='alpha' className='input' />
                     </div>
                     <div className='input-container2'>
                         <p className='label'>Email</p>
-                        <input type='text' placeholder='User@gmail.com' className='input' />
+                        <input type='text' value='alpha@gmail.com' className='input' disable/>
                     </div>
 
                 </div>

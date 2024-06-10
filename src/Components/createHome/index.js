@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import {format} from 'date-fns';
+import { Link } from 'react-router-dom'
+import { format } from 'date-fns';
 import { CiCirclePlus } from "react-icons/ci";
 import Popup from 'reactjs-popup'
 import Nav from '../createNav';
@@ -26,10 +27,10 @@ const CreateHome = () => {
         if (data != null) {
             const info = JSON.parse(data);
             //console.log(info);
-            localStorage.setItem('data', JSON.stringify([...info, { 'project': project,'date':fDate }]))
+            localStorage.setItem('data', JSON.stringify([...info, { 'project': project, 'date': fDate }]))
         }
         else {
-            const info = [{ 'project': project ,'date':fDate}];
+            const info = [{ 'project': project, 'date': fDate }];
             //console.log('else');
             localStorage.setItem('data', JSON.stringify(info));
         }
@@ -54,18 +55,20 @@ const CreateHome = () => {
                             in</p>
                     </div> :
                     <div className="projects-container">
-                        {projects.map((each,index) => {
-                           
-                            return (<div className="project-card" key={index}>
-                                <div className="project-name">
-                                    <p className="project-letter">{each.project[0]}</p>
-                                </div>
-                                <div className="project-text">
-                                    <p className="name">{each.project}</p>
-                                    <p className="epi">4 Episodes</p>
-                                    <p className="time">{each.date}</p>
-                                </div>
-                            </div>
+                        {projects.map((each, index) => {
+
+                            return (
+                                <Link to='/home' className="project-card" key={index}>
+                                    <div className="project-name">
+                                        <p className="project-letter">{each.project[0]}</p>
+                                    </div>
+                                    <div className="project-text">
+                                        <p className="name">{each.project}</p>
+                                        <p className="epi">4 Episodes</p>
+                                        <p className="time">{each.date}</p>
+                                    </div>
+
+                                </Link>
                             )
                         })}
                     </div>

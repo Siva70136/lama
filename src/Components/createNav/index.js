@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom';
 import { IoSettings } from "react-icons/io5";
 import { FaBell } from "react-icons/fa";
 import { IoMdHome } from "react-icons/io";
@@ -15,10 +14,10 @@ const Nav = () => {
                     <p className='logo-title'>LAMA.</p>
 
                 </div>
-                <Link className="back-home" to='/home'>
+                <div className="back-home">
                     <IoMdHome className="ico" />
                     Back to Home
-                </Link>
+                </div>
                 <div className='icon-container'>
                     <IoSettings className="ico" />
                     <FaBell className="ico" />

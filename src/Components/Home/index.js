@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { format } from 'date-fns';
 import { HiOutlineXMark } from "react-icons/hi2";
 import Popup from 'reactjs-popup'
-
+import { Link } from 'react-router-dom';
 import Menu from '../sideMenu';
 import Nav2 from '../createNav2';
 import cloud_upload from '../../images/cloud_upload.png'
@@ -216,6 +216,10 @@ const Home = () => {
                                 </Popup>
                             </div>
                         </div>
+                        <div className="sub">
+                            <p className="cap">All files are processed! Your widget is ready to go!</p>
+                            <button type='button' className='upgrade'>Try it out!</button>
+                        </div>
                         <div className='rows'>
                             <div className='row'>
                                 <p className='head1'>Name</p>
@@ -231,16 +235,18 @@ const Home = () => {
                                         <p className='status'>Done</p>
                                         <p className='action'>
                                             <div className="">
+                                                <Link to='/edit'>
+                                                    <button
+                                                        type="button"
+                                                        className="button"
+                                                    >
+                                                        Edit
+                                                    </button>
+                                                </Link>
                                                 <button
                                                     type="button"
-                                                    className="button"
-                                                >
-                                                    Edit
-                                                </button>
-                                                <button
-                                                    type="button"
-                                                    className="button"
-                                                   
+                                                    className="button del"
+
                                                 >
                                                     Delete
                                                 </button>

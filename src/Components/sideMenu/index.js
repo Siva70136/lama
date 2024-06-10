@@ -34,18 +34,16 @@ const Menu = () => {
                         <p className='option-name'>Widget Configuration</p>
                     </div>
                 </Link>
-                <Link to='/deploy' onClick={() => onChange('deploy')} className='option'>
-                    <div className={`${activeTab === 'deploy' ? 'active' : ''} option`}>
-                        <AiOutlineSchedule className="icon" />
-                        <p className='option-name'>Deployment</p>
-                    </div>
-                </Link>
-                <Link to='/price' onClick={() => onChange('price')} className='option'>
-                    <div className={`${activeTab === 'price' ? 'active' : ''} option`}>
-                        <CgProfile className="icon" />
-                        <p className='option-name'>Pricing</p>
-                    </div>
-                </Link>
+
+                <div className={` option`}>
+                    <AiOutlineSchedule className="icon" />
+                    <p className='option-name'>Deployment</p>
+                </div>
+                <div className={` option`}>
+                    <CgProfile className="icon" />
+                    <p className='option-name'>Pricing</p>
+                </div>
+
                 <hr className='last' />
             </div>
 
