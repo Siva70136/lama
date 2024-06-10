@@ -78,4 +78,7 @@ hr {
   .side-menu {
       display: none;
   }
+  .menusm{
+    display: inline;
+  }
 }

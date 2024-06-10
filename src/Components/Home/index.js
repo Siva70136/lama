@@ -4,6 +4,7 @@ import { HiOutlineXMark } from "react-icons/hi2";
 import Popup from 'reactjs-popup'
 import { Link } from 'react-router-dom';
 import Menu from '../sideMenu';
+import MenuSm from '../menusm';
 import Nav2 from '../createNav2';
 import cloud_upload from '../../images/cloud_upload.png'
 import Frame1 from '../../images/Frame1.png';
@@ -33,10 +34,10 @@ const Home = () => {
         //console.log(fDate);
         if (data != null) {
             const info = JSON.parse(data);
-            localStorage.setItem('videos', JSON.stringify([...info, { 'name': name,'desc':link, 'date': fDate }]))
+            localStorage.setItem('videos', JSON.stringify([...info, { 'name': name, 'desc': link, 'date': fDate }]))
         }
         else {
-            const info = [{ 'name': name,'desc':link, 'date': fDate }];
+            const info = [{ 'name': name, 'desc': link, 'date': fDate }];
             localStorage.setItem('videos', JSON.stringify(info));
         }
         const d = localStorage.getItem('videos');
@@ -49,12 +50,16 @@ const Home = () => {
 
     return (
         <div className="Main-container">
-            <Menu />
+            <Menu className="menu" />
+
             <div className='app-container'>
                 <Nav2 />
-                <div className="">
+
+                <div className="x-container">
                     <p className="head home-head">Upload</p>
+                 
                 </div>
+
                 <div className='cards-container'>
 
                     <Popup

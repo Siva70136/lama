@@ -29,7 +29,7 @@
   line-height: 2px;
   box-shadow: 1px 1px 1px 1px #cbd5e1;
   border: 1px solid rgb(157, 155, 155);
-  width: 220px;
+  width: 30%;
   margin: 4px;
   border-radius: 5px;
   padding: 4px;
@@ -99,7 +99,11 @@
   width: 10%;
   margin-right: 7px;
 }
-
+.x-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .cross {
   outline: none;
   border: none;
@@ -117,11 +121,7 @@
   align-items: center;
 }
 
-.select-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+
 
 .rows {
   width: 50%;
@@ -175,4 +175,24 @@
   justify-content: space-between;
   padding: 8px 20px 8px 20px;
   border-radius: 10px;
+}
+.menusm{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .banner-card{
+    width: 200px;
+  }
+  .banner-name{
+    font-size: 15px;
+  }
+  .epi{
+    font-size: 10px;
+  }
+  .menu {
+      display: none;
+  }
+  .menusm{
+    display: inline;
+  }
 }
