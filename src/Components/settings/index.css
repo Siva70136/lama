@@ -1,0 +1,48 @@
+.app-container{
+  margin-left: 27px;
+}
+.profile-container{
+  display: flex;
+  align-items: center;
+}
+.profile{
+  width: 17%;
+}
+.input-container2{
+  margin-left: 20px;
+  margin-right: 20%;
+}
+.label{
+  font-weight: 700;
+  line-height: 2px;
+  color: rgba(60, 60, 60, 1);
+}
+.input{
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgb(72, 72, 72);
+  width: 140%;
+}
+.under{
+  text-decoration: underline;
+  color: white;
+}
+.cap{
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+.sub{
+  background-color: rgba(126, 34, 206, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px 8px 20px;
+  border-radius: 10px;
+}
+.upgrade{
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0px 7px 0px 7px;
+}

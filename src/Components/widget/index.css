@@ -1,0 +1,24 @@
+.menu-container{
+    display: flex;
+    align-items: center;
+}   
+.top-link{
+    margin: 8px 20px 0px 20px;
+    color: rgb(77, 77, 77);
+    font-weight: 500;
+}
+hr {
+    width:100%;
+    float: left;
+    background-color: rgba(255,255,255,.5);
+    border: 1px solid rgb(71, 71, 71);
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.field{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 118, 118);
+}

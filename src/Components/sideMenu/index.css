@@ -1,0 +1,80 @@
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22%;
+  height: 650px;
+  background-color: rgb(226, 202, 249);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.active{
+  background-color:rgba(126, 34, 206, 1);
+  border-radius: 20px;
+  width: 100%;
+}
+.active .option-name{
+  color: white;
+}
+.active .icon{
+  color: white;
+}
+.option-name {
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
+
+
+}
+.last{
+  text-align: left;
+}
+
+.head2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 20px;
+  color: white;
+}
+
+.line{
+  color: red;
+  font-size: 100px;
+}
+
+.icon {
+  color: black;
+  width: 18px;
+  height: 18px;
+}
+hr {
+  width:100%;
+  float: left;
+  color: black;
+  background-color: rgba(255,255,255,.5);
+}
+
+@media screen and (max-width: 768px) {
+  .side-menu {
+      display: none;
+  }
+}

@@ -1,0 +1,56 @@
+.navbar2-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo2{
+  font-size: 30px;
+  color: #7E22CE;
+}
+.logo-container2{
+  display: flex;
+  align-items: center;
+}
+.logo-title2{
+  color:  #a2a2a2;
+  font-weight: 700;
+  font-style: 'Plus Jakarta Sans';
+}
+.back-home{
+  border: 1px solid rgb(126, 125, 125);
+  border-radius: 7px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  color: rgb(85, 84, 84);
+  text-decoration: none;
+}
+.icon-container{
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+.ico{
+
+  margin-left: 10px;
+  color: rgb(93, 93, 93);
+  font-size: 20px;
+}
+.down{
+  color: #5e5e5e;
+  margin-top: 5px;
+  font-weight: 600;
+}
+.lang{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 800;
+  color: #5e5e5e;
+}
+.bell{
+  font-size: 34px;
+}
+.flag{
+  margin-left: 10px;
+  width: 30%;
+}

@@ -1,0 +1,32 @@
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.logo-container{
+  display: flex;
+}
+.logo-title{
+  color:  #7E22CE;
+  font-weight: 700;
+  font-style: 'Plus Jakarta Sans';
+}
+.back-home{
+  border: 1px solid rgb(126, 125, 125);
+  border-radius: 7px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  color: rgb(85, 84, 84);
+  text-decoration: none;
+}
+.icon-container{
+  margin-right: 15px;
+}
+.ico{
+  margin-left: 10px;
+  color: rgb(93, 93, 93);
+  font-size: 20px;
+}

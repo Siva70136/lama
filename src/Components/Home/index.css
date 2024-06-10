@@ -1,0 +1,156 @@
+.Main-container {
+  display: flex;
+}
+
+.app-container {
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-head {
+  font-size: 35px;
+  line-height: 5px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.image {
+  width: 77%;
+}
+
+.banner-card {
+  display: flex;
+  line-height: 2px;
+  box-shadow: 1px 1px 1px 1px #cbd5e1;
+  border: 1px solid rgb(157, 155, 155);
+  width: 220px;
+  margin: 4px;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.banner-name {
+  color: rgb(109, 109, 109);
+}
+
+.or {
+  align-self: center;
+  font-size: 20px;
+  color: rgb(143, 142, 142);
+  line-height: 2px;
+}
+
+/* Upload Container */
+
+.upload-container {
+  border: 3px dashed rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 15px 40px 15px;
+  border-radius: 8px;
+}
+
+.cloud-image {
+  width: 10%;
+}
+
+.uplod-head {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  color: #49454F;
+}
+
+.upload-desc {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+
+}
+
+.sf {
+  background: transparent;
+  border: 1px solid #7E22CE;
+  color: #7E22CE;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 7px 12px 7px 12px;
+  cursor: pointer;
+}
+
+/* Pop Up */
+
+.pop-head {
+  display: flex;
+  align-items: center;
+}
+
+.pop-image {
+  width: 10%;
+  margin-right: 7px;
+}
+
+.cross {
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+}
+
+.x {
+  font-size: 30px;
+}
+
+.select-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rows {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto;
+  border: 1px solid rgb(167, 166, 166);
+  border-radius: 10px;
+}
+
+.button {
+  background: transparent;
+  outline: none;
+  border: 1px solid rgb(167, 166, 166);
+  padding: 5px;
+}
+
+.delete {
+  color: red;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(167, 166, 166);
+  border-radius: 10px;
+}
+
+.head1 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.sname {
+  width: 100px;
+}
+
