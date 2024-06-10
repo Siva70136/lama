@@ -3,6 +3,7 @@ import CreateHome from './Components/createHome';
 import Home from './Components/Home';
 import Edit from './Components/edit';
 import Widget from './Components/widget';
+import Price from './Components/price';
 import Settings from './Components/settings';
 import { MenuProvider } from './context/themecontext';
 import './App.css';
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/projects' Component={CreateHome} />
           <Route exact path='/deploy' Component={Edit} />
           <Route exact path='/widget' Component={Widget} />
+          <Route exact path='/price' Component={Price} />
           <Route exact path='/settings' Component={Settings} />
         </Routes>
       </MenuProvider>
